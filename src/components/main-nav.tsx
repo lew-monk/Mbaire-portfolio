@@ -8,7 +8,7 @@ import { Button } from "./ui/button";
 export default function Nav() {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="flex justify-between w-full px-4 h-20 items-center">
+    <nav className="flex justify-between w-full px-4 h-20 mb-4 items-center sticky top-0  bg-white shadow-sm z-10">
       <main className="flex items-center gap-2">
         <Image src={AvatarImage} alt="Mbaire Logo" width={32} height={32} />
         <h1>Mary Mbaire</h1>
