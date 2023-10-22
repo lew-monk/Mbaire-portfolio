@@ -55,7 +55,7 @@ export default function Home() {
 
       <section className="px-4 grid gap-4">
         <h1>Latest Projects</h1>
-        <div className="grid gap-8">
+        <div className="grid gap-12">
           {caseStudies.map((caseStudy: any) => (
             <CaseStudy key={caseStudy.title} {...caseStudy} />
           ))}
