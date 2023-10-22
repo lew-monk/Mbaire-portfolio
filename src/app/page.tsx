@@ -7,10 +7,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="bg-primary relative">
-      <section className="w-full px-4 flex flex-col gap-4 justify-center ">
+      <section className="w-full px-4 flex flex-col gap-8 justify-center ">
         <main className="grid gap-2 w-full ">
           <h1>
-            <span>Howdy 👋🏽, I&apos;m </span> <span className="text-3xl text-secondary">Mary Mbaire</span>
+            <span className="tracking-wider">Howdy 👋🏽, I&apos;m </span>{" "}
+            <span className="text-3xl text-secondary">Mary Mbaire,</span>
           </h1>
           <h1 className="text-3xl text-secondary">User Experience Designer</h1>
           <h2 className="text-xl">based in Nairobi, Kenya</h2>
@@ -45,7 +46,7 @@ export default function Home() {
         </aside>
       </section>
 
-      <section className="w-screen h-24 my-8 bg-secondary text-white flex text-xs justify-evenly gap-2 font-thin divide-x-2 items-center">
+      <section className="w-screen h-24 my-16 bg-secondary text-white flex text-xs justify-evenly gap-2 font-thin divide-x-2 items-center">
         <h1 className="">UX Design</h1>
         <h1 className="pl-2">Visual Design</h1>
         <h1 className="pl-2">Accessible Design</h1>
